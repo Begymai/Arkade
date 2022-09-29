@@ -1,0 +1,27 @@
+.footer{
+    margin-top: 137px;
+    background: #F2F3F4;
+
+    &__content{
+        padding-top: 60px;
+        padding-bottom: 77px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link{
+    @include font("Roboto", 400, 15, #3D5675);
+    margin-bottom: 17px;
+    }
+    &__exclusive{
+        display: flex;
+        flex-direction: column;
+    }
+    &__search{
+        margin-bottom: 12px;
+        background: #FFFFFF;
+        border-radius: 34px;
+        border: none;
+        padding: 9px 182px 9px 18px;
+
+    }
+}

@@ -1,0 +1,11 @@
+.get{
+    margin-top: 177px;
+    &__content{
+        text-align: center;
+        
+    }
+    &__title{
+        @include font("Roboto", 700, 31, #011F3A);
+        margin-bottom: 55px;
+    }
+}
