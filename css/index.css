@@ -333,10 +333,6 @@ a {
   padding-bottom: 114px;
 }
 .yellow__title {
-  font-family: "Roboto";
-  font-weight: 700px;
-  font-size: 24px;
-  color: #011F3A;
   margin-bottom: 14px;
 }
 .yellow__suptitle {
@@ -348,6 +344,17 @@ a {
   max-width: 310px;
   text-align: center;
 }
-.yellow__info {
+.yellow__box {
+  position: relative;
   display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.yellow__vl {
+  border-left: 1px solid #A1A1A1;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
 }/*# sourceMappingURL=index.css.map */
