@@ -1,0 +1,62 @@
+.product{
+    margin-top: 57px;
+    &__catalog{
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        border-radius: 0px;
+        max-width: 400px;
+    }
+    &__name{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+    }
+    &__info{
+        @include font("Roboto", 400, 32, #011F3A);
+    }
+
+    &__title{
+        @include font("Roboto", 400, 18, #011F3A);
+        margin-bottom: 8px;
+        margin-top: 24px;
+    }
+    &__suptitle{
+        @include font("Roboto", 400, 15, #777);
+        width: 209px;
+    }
+    &__starting{
+        @include font("Roboto", 400, 15, #a1a1a1);
+    }
+    &__unit{
+        @include font("Roboto", 400, 15, #a1a1a1);
+    }
+    &__box{
+       margin-left: 25px;
+    }
+    &__price{
+        margin-top: 51px;
+        margin-right: 25px;
+        margin-bottom: 33px;
+        text-align: right;
+    }
+    &__custom{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__boxes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__end{
+        display: flex;
+        justify-content: center;
+        margin-top: 56px;
+
+    }
+    &__item{
+        @include font("Roboto", 700, 15, #a1a1a1);
+        margin-right: 16px;
+        display: flex;
+        align-items: center;    
+    }
+}

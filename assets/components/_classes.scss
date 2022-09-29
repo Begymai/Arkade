@@ -1,0 +1,33 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button-blue{
+    @include font("Roboto", 700, 14, #ffff);
+    text-transform: uppercase;
+    background: #3D5675;
+    border-radius: 44px;
+    padding: 13px 25px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background: #ffff;
+        color: #3D5675;
+        transition-duration: 0.3s;
+    }
+}
+.button-white{
+    @include font("Roboto", 700, 14, #3D5675);
+    text-transform: uppercase;
+    background: #ffff;
+    border-radius: 44px;
+    padding: 13px 25px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background: #3D5675;
+        color: #ffff;
+        transition-duration: 0.3s;
+    }
+}

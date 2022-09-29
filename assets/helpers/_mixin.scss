@@ -1,0 +1,6 @@
+@mixin font($seytek,$guljannat, $karina, $begimay) {
+    font-family: $seytek;
+    font-weight: $guljannat+px;
+    font-size: $karina+ px;
+    color: $begimay;
+}

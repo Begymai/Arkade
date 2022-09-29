@@ -1,0 +1,21 @@
+.yellow{
+    margin-top: 200px;
+    &__content{
+        background: #FFCA3A;
+        padding-top: 110px;
+        padding-bottom: 114px;
+    }
+    &__title{
+        @include font("Roboto", 700, 24, #011F3A);
+        margin-bottom: 14px;
+    }
+    &__suptitle{
+        @include font("Roboto", 400, 15, #3D5675);
+        margin-bottom: 10px;
+        max-width: 310px;
+        text-align: center;
+    }
+    &__info{
+        display: flex;
+    }
+}

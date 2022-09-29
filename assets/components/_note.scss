@@ -1,0 +1,33 @@
+.note{
+    margin-top: 133px;
+    &__content{
+        background: #72BDA3;
+        text-align: center;
+        padding-top: 88px;
+        padding-bottom: 101px;
+    }
+    &__name{
+        @include font("Roboto", 400, 32, #011F3A);
+        margin-bottom: 46px;
+    }
+    &__boxes{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    &__title{
+        margin-top: 12px;
+        margin-bottom: 12px;
+        @include font("Roboto", 400, 18, #011F3A);
+    }
+    &__suptitle{
+        @include font("Roboto", 400, 15, #3D5675);
+        margin-bottom: 74px;
+        width: 196px;
+    }
+    &__name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

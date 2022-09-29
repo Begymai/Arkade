@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto";
+  margin: 0;
+  background: #EEEEEE;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button-blue {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  background: #3D5675;
+  border-radius: 44px;
+  padding: 13px 25px;
+  border: none;
+  cursor: pointer;
+}
+.button-blue:hover {
+  background: white;
+  color: #3D5675;
+  transition-duration: 0.3s;
+}
+
+.button-white {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 14px;
+  color: #3D5675;
+  text-transform: uppercase;
+  background: white;
+  border-radius: 44px;
+  padding: 13px 25px;
+  border: none;
+  cursor: pointer;
+}
+.button-white:hover {
+  background: #3D5675;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.header {
+  padding-top: 22px;
+  padding-bottom: 21px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu {
+  display: flex;
+}
+.header__info {
+  margin-left: 30px;
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 14px;
+  color: #011F3A;
+  width: 170px;
+  text-transform: uppercase;
+}
+.header__registr {
+  display: flex;
+  justify-content: space-between;
+}
+.header__account {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 14px;
+  color: #011F3A;
+  text-transform: uppercase;
+}
+.header__basket {
+  margin-left: 30px;
+  margin-right: 24px;
+}
+.header__logo {
+  margin-left: 24px;
+}
+
+.hero {
+  background: #F2AE4D;
+}
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__title {
+  margin-top: 168px;
+  max-width: 480px;
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 48px;
+  color: #011F3A;
+}
+.hero__suptitle {
+  margin-top: 33px;
+  margin-bottom: 14px;
+  max-width: 277px;
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 15px;
+  color: #011F3A;
+}
+.hero__button {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  background: #3D5675;
+  border-radius: 44px;
+  padding: 19px 29px;
+  margin-bottom: 205px;
+  border: none;
+  cursor: pointer;
+}
+.hero__button:hover {
+  background: white;
+  color: #3D5675;
+  transition-duration: 0.3s;
+}
+.hero__img {
+  margin-top: 87px;
+  margin-bottom: 98px;
+}
+
+.platform {
+  background: #fff;
+}
+.platform__content {
+  display: flex;
+  justify-content: space-between;
+}
+.platform__box {
+  display: flex;
+  align-items: center;
+  margin-top: 41px;
+  margin-bottom: 41px;
+}
+.platform__name {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 14px;
+  color: #A1A1A1;
+  margin-left: 16px;
+  width: 60px;
+}
+
+.product {
+  margin-top: 57px;
+}
+.product__catalog {
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  border-radius: 0px;
+  max-width: 400px;
+}
+.product__name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.product__info {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 32px;
+  color: #011F3A;
+}
+.product__title {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 18px;
+  color: #011F3A;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.product__suptitle {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 15px;
+  color: #777;
+  width: 209px;
+}
+.product__starting {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 15px;
+  color: #a1a1a1;
+}
+.product__unit {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 15px;
+  color: #a1a1a1;
+}
+.product__box {
+  margin-left: 25px;
+}
+.product__price {
+  margin-top: 51px;
+  margin-right: 25px;
+  margin-bottom: 33px;
+  text-align: right;
+}
+.product__custom {
+  display: flex;
+  justify-content: space-between;
+}
+.product__boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product__end {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+}
+.product__item {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 15px;
+  color: #a1a1a1;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.note {
+  margin-top: 133px;
+}
+.note__content {
+  background: #72BDA3;
+  text-align: center;
+  padding-top: 88px;
+  padding-bottom: 101px;
+}
+.note__name {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 32px;
+  color: #011F3A;
+  margin-bottom: 46px;
+}
+.note__boxes {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.note__title {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 18px;
+  color: #011F3A;
+}
+.note__suptitle {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 15px;
+  color: #3D5675;
+  margin-bottom: 74px;
+  width: 196px;
+}
+.note__name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.material {
+  margin-top: 158px;
+}
+.material__name {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 36px;
+  color: #011F3A;
+  margin-bottom: 82px;
+}
+.material__title {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 18px;
+  color: #011F3A;
+  margin-top: 54px;
+  margin-bottom: 12px;
+}
+.material__suptitle {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 15px;
+  color: #a1a1a1;
+  width: 246px;
+}
+.material__boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.material__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.yellow {
+  margin-top: 200px;
+}
+.yellow__content {
+  background: #FFCA3A;
+  padding-top: 110px;
+  padding-bottom: 114px;
+}
+.yellow__title {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 24px;
+  color: #011F3A;
+  margin-bottom: 14px;
+}
+.yellow__suptitle {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 15px;
+  color: #3D5675;
+  margin-bottom: 10px;
+  max-width: 310px;
+  text-align: center;
+}
+.yellow__info {
+  display: flex;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,18 @@
+.platform{
+    background: #fff;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box{
+        display: flex;
+        align-items: center;
+        margin-top: 41px;
+        margin-bottom: 41px;
+    }
+    &__name{
+        @include font("Roboto", 700, 14, #A1A1A1);
+        margin-left: 16px;
+        width: 60px;
+    }
+}

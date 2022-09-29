@@ -1,0 +1,26 @@
+.material{
+    margin-top: 158px;
+    &__name{
+        @include font('Roboto', 700, 36, #011F3A);
+        margin-bottom: 82px;
+    }
+    &__title{
+        @include font('Roboto', 700, 18, #011F3A);
+        margin-top: 54px;
+        margin-bottom: 12px;
+    }
+    &__suptitle{
+        @include font('Roboto', 700, 15, #a1a1a1);
+        width: 246px;
+    }
+    &__boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
